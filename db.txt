@@ -1,0 +1,10 @@
+Nome tabella: second_hand_cars
+
+id - BIGINT - PRIMARY_KEY(NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
+category - VARCHAR(50) - NOTNULL - INDEX
+brand - VARCHAR(50) - NOTNULL - INDEX
+model - VARCHAR(50) - NOTNULL - UNIQUE
+year - YEAR - NOTNULL
+price - DECIMAL(8,2) - DEFAULT ('Prezzo contrattabile')
+number_of_owners - TINYINT - NULL 
+seasonal_test - TINYINT - NULL
